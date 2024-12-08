@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Reservation Request</h1>
+    </header>
+    <main>
+        <form>
+            <label>Arrival date:</label>
+            <input required type="date" id="arrival"><br><br>
+            <label>Nights:</label>
+            <input required type="number" min="1" id="nights"><br><br>
+            <label>Adults:</label>
+            <select name="adults" id="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label>Children:</label>
+            <select name="children" id="children">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br><br>
+            <p>preferences</p>
+            <label>Room type:</label>
+                <input required type="radio" name="Room" id="standard">
+                <label>Standard</label>
+                <input required type="radio" name="Room" id="buisness">
+                <label>Buisness</label>
+                <input required type="radio" name="Room" id="suite">
+                <label>Suite</label><br><br>
+            <label>Bed type:</label>
+                <input required type="radio" name="bed" id="king">
+                <label>King</label>
+                <input required type="radio" name="bed" id="double">
+                <label>Double Double</label>
+            
+            <p>Contact information</p>
+            <label>Name:</label>
+            <input required type="text" id="name"><br><br>
+            <label>Email:</label>
+            <input required type="email" id="email"><br><br>
+            <label>Phone</label>
+            <input required type="text" id="phone"><br><br>
+            <input required type="submit" value="Submit Request">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Delilah Adams n01683704 2024</p>
+    </footer>
+    <script src=""></script>
+</body>
+</html>
