@@ -1,0 +1,25 @@
+footer{
+    background-color: darkgreen;
+    color: white;
+    padding: 3%;
+}
+nav a, footer a{
+    color: white;
+    display: inline-block;
+    margin: 1ch;
+    text-decoration: none;
+}
+nav{
+    background-color: darkgreen;
+}
+
+#controls{
+    text-align: center;
+}
+#controls span{
+    display: inline-block;
+    padding: 1vw 10vw;
+}
+main img{
+    width: 100%;
+}

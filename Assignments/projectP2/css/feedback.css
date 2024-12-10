@@ -1,0 +1,43 @@
+#problem{
+    display: inline-block;
+    background-color: green;
+    color: white;
+}
+#knownIssues{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5%;
+}
+.issue{
+    background-color: rgb(46, 12, 12);
+    aspect-ratio: 2/1;
+    color: white;
+    padding: 1vw;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#otherInp{
+    display: none;
+}
+#feedback{
+    background-color: rgb(46, 12, 12);
+    padding: 3%;
+    color: white;
+    padding: 1vw;
+    border: 2px solid black;
+    display: block;
+}
+footer{
+    background-color: darkgreen;
+    color: white;
+    padding: 3%;
+}
+nav a, footer a{
+    color: white;
+    display: inline-block;
+    margin: 1ch;
+    text-decoration: none;
+}
+nav{
+    background-color: darkgreen;
+}

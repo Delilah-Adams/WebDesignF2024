@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../css/feedback.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../images/Banner.jpg" alt="mountain biker mid jump" width="100%"><!--https://www.facebook.com/groups/103689789718886/ -->
+        </a>
+    </header>
+    <nav>
+        <a href="../webpages/trails.html">Trails</a>
+        <a href="../webpages/guidelines.html">Guidelines</a>
+        <a href="../index.html">Home</a>
+        <a href="../webpages/feedback.html">I HATE your website</a>
+    </nav>
+    <main>
+        <h2>Feedback submision form</h2>
+        <form id="feedback">
+            <label for="problem">Choose your issue:</label>
+            <select name="problem" id="problem">
+                <option>Ugly design</option>
+                <option>Inacuracies</option>
+                <option>Missing information</option>
+                <option>Other</option>
+                <input id="otherInp" type="text">
+            </select><br><br>
+            <label for="description">Describe issue:</label>
+            <input type="text" name="description" id="description">
+            <br><br>
+            <label for="email">Enter email:</label>
+            <input type="text" name="email" id="email"><br>
+            <input type="submit" value="submit">
+        </form>
+
+        <h2>Known Issues</h2>
+        <div id="knownIssues">
+            <div class="issue">
+                <h3>Ugly design</h3>
+                <p>header image on main page is too big</p>
+            </div>
+            <div class="issue">
+                <h3>Missing information</h3>
+                <p>My awesome new route is missing!</p>
+            </div>
+            <div class="issue">
+                <h3>Inacuracies</h3>
+                <p>Helmets are actually super lame</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact me:</p>
+        <a href="mailto:delilahgadams@gmail.com">delilahgadams@gmail.com</a>
+    </footer>
+    <script src="../js/feedback.js"></script>
+</body>
+</html>

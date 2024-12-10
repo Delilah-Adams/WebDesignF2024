@@ -1,0 +1,36 @@
+
+.trails{
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+}
+
+h2{
+margin-top: 50px;
+}
+
+.Guidelines{
+    width: 50%;
+    background-color: white;
+    float: left;
+}
+
+footer{
+    background-color: darkgreen;
+    color: white;
+}
+a{
+    color: white;
+    display: inline-block;
+    margin: 1ch;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+nav{
+    background-color: darkgreen;
+}
